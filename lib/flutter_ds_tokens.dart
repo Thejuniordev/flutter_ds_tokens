@@ -1,6 +1,6 @@
 library flutter_ds_tokens;
 
-/// A Calculator.
+/// A Tokens color
 class TokensColor {
   TokensColor._();
 
