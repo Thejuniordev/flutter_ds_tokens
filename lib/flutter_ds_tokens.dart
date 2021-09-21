@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 /// A Tokens color
 
-const Color colorFeedbackError10 = Color(0x33faddc3);
+const Color colorFeedbackError10 = Color(0xff99A45D);
 const Color colorFeedbackError50 = Color(0xED8E36);
 const Color colorFeedbackSafety10 = Color(0xBADFF3);
 const Color colorFeedbackSafety50 = Color(0x1992D7);
