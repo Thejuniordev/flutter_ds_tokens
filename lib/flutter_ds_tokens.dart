@@ -1,10 +1,12 @@
 library flutter_ds_tokens;
 
+import 'package:flutter/material.dart';
+
 /// A Tokens color
 class TokensColor {
   TokensColor(tokensColor);
 
-  static TokensColor colorFeedbackError10 = TokensColor(0xFADDC3);
+  static Color colorFeedbackError10 = Color(0xFADDC3);
 
   // static const colorFeedbackError10 = #FADDC3;
   // static const colorFeedbackError50 = #ED8E36;
