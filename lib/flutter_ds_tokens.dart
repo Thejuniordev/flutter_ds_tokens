@@ -7,20 +7,18 @@ class TokensColor {
   TokensColor(tokensColor);
 
   static Color colorFeedbackError10 = Color(0xFADDC3);
-
-  // static const colorFeedbackError10 = #FADDC3;
-  // static const colorFeedbackError50 = #ED8E36;
-  // static const colorFeedbackSafety10 = #BADFF3;
-  // static const colorFeedbackSafety50 = #1992D7;
-  // static const colorFeedbackSuccess10 = #C9EBDD;
-  // static const colorFeedbackSuccess50 = #4ABD8D;
-  // static const colorKenloPrimary10 = #FDC0CB;
-  // static const colorKenloPrimary100 = #CE2140;
-  // static const colorKenloPrimary50 = #F82E52;
-  // static const colorNeutral0 = #FFFFFF;
-  // static const colorNeutral05 = #F2F2F2;
-  // static const colorNeutral100 = #242424;
-  // static const colorNeutral30 = #D8D8D8;
-  // static const colorNeutral50 = #888888;
-  // static const colorNeutral70 = #4C4C4C;
+  static Color colorFeedbackError50 = Color(0xED8E36);
+  static Color colorFeedbackSafety10 = Color(0xBADFF3);
+  static Color colorFeedbackSafety50 = Color(0x1992D7);
+  static Color colorFeedbackSuccess10 = Color(0xC9EBDD);
+  static Color colorFeedbackSuccess50 = Color(0x4ABD8D);
+  static Color colorKenloPrimary10 = Color(0xFDC0CB);
+  static Color colorKenloPrimary100 = Color(0xCE2140);
+  static Color colorKenloPrimary50 = Color(0xF82E52);
+  static Color colorNeutral0 = Color(0xFFFFFF);
+  static Color colorNeutral05 = Color(0xF2F2F2);
+  static Color colorNeutral100 = Color(0x242424);
+  static Color colorNeutral30 = Color(0xD8D8D8);
+  static Color colorNeutral50 = Color(0x888888);
+  static Color colorNeutral70 = Color(0x4C4C4C);
 }
