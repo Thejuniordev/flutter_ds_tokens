@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 class TokensColor {
   TokensColor(tokensColor);
 
-  static TokensColor colorFeedbackError10 = TokensColor(0xfaddc3);
+  static TokensColor color1 = TokensColor(0xfaddc3);
   static Color colorFeedbackError50 = const Color(0xED8E36);
   static Color colorFeedbackSafety10 = const Color(0xBADFF3);
   static Color colorFeedbackSafety50 = const Color(0x1992D7);
