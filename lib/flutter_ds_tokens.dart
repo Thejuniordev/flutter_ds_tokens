@@ -16,17 +16,17 @@ class HexColor extends Color {
 }
 
 Color colorFeedbackError10 = HexColor('#FADDC3');
-const Color colorFeedbackError50 = Color(0xED8E36);
-const Color colorFeedbackSafety10 = Color(0xBADFF3);
-const Color colorFeedbackSafety50 = Color(0x1992D7);
-const Color colorFeedbackSuccess10 = Color(0xC9EBDD);
-const Color colorFeedbackSuccess50 = Color(0x4ABD8D);
-const Color colorKenloPrimary10 = Color(0xFDC0CB);
-const Color colorKenloPrimary100 = Color(0xCE2140);
-const Color colorKenloPrimary50 = Color(0xF82E52);
-const Color colorNeutral0 = Color(0xFFFFFF);
-const Color colorNeutral05 = Color(0xF2F2F2);
-const Color colorNeutral100 = Color(0x242424);
-const Color colorNeutral30 = Color(0xD8D8D8);
-const Color colorNeutral50 = Color(0x888888);
-const Color colorNeutral70 = Color(0x4C4C4C);
+Color colorFeedbackError50 = HexColor('#ED8E36');
+Color colorFeedbackSafety10 = HexColor('#BADFF3');
+Color colorFeedbackSafety50 = HexColor('#1992D7');
+Color colorFeedbackSuccess10 = HexColor('#C9EBDD');
+Color colorFeedbackSuccess50 = HexColor('#4ABD8D');
+Color colorKenloPrimary10 = HexColor('#FDC0CB');
+Color colorKenloPrimary100 = HexColor('#CE2140');
+Color colorKenloPrimary50 = HexColor('#F82E52');
+Color colorNeutral0 = HexColor('#FFFFFF');
+Color colorNeutral05 = HexColor('#F2F2F2');
+Color colorNeutral100 = HexColor('#242424');
+Color colorNeutral30 = HexColor('#D8D8D8');
+Color colorNeutral50 = HexColor('#888888');
+Color colorNeutral70 = HexColor('#4C4C4C');
