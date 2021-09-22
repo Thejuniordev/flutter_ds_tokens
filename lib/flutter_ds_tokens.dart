@@ -3,8 +3,19 @@ library flutter_ds_tokens;
 import 'package:flutter/material.dart';
 
 /// A Tokens color
+class HexColor extends Color {
+  static int _getColorFromHex(String hexColor) {
+    hexColor = hexColor.toUpperCase().replaceAll("#", "");
+    if (hexColor.length == 6) {
+      hexColor = "FF" + hexColor;
+    }
+    return int.parse(hexColor, radix: 16);
+  }
 
-const Color colorFeedbackError10 = Color(0x00FADDC3);
+  HexColor(final String hexColor) : super(_getColorFromHex(hexColor));
+}
+
+Color colorFeedbackError10 = HexColor('#FADDC3');
 const Color colorFeedbackError50 = Color(0xED8E36);
 const Color colorFeedbackSafety10 = Color(0xBADFF3);
 const Color colorFeedbackSafety50 = Color(0x1992D7);
