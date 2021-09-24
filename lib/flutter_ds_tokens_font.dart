@@ -1,5 +1,7 @@
 library flutter_ds_tokens;
 
+import 'package:flutter/material.dart';
+
 const fontFamilyKenlo = 'Manrope'; /* the Kenlo font-family */
 const fontSize12 = 12; /* the caption size of the font */
 const fontSize16 = 16; /* the body size of the font */
@@ -17,7 +19,7 @@ const lineHeight16 = 1.16; /* the line-height of the font */
 const lineHeight24 = 24; /* the line-height of the font */
 const lineHeight32 = 32; /* the line-height of the font */
 const lineHeight40 = 40; /* the line-height of the font */
-const textAlignCenter = 'center'; /* the text-align */
-const textAlignEnd = 'right'; /* the text-align */
-const textAlignStart = 'left'; /* the text-align */
+const textAlignCenter = TextAlign.center; /* the text-align */
+const textAlignEnd = TextAlign.right; /* the text-align */
+const textAlignStart = TextAlign.left; /* the text-align */
 
